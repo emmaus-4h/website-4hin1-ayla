@@ -9,7 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color:rgb(251, 239, 251);    /* achtergrondkleur lichtgrijs */
+  background-color:rgb(255, 255, 255);    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -46,8 +46,8 @@ p {
 /* Indeling voor hoofd pagina */
 
 .kolomLinks {
-  float:left;
-  width:250px;
+  float:right;
+  width:200px;
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
