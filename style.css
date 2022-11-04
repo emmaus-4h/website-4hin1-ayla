@@ -24,6 +24,7 @@ body * {                          /* geldt voor alles in body */
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+   background-image: url("afbeeldingen/cosmetica.jpeg");
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -47,7 +48,7 @@ p {
 
 .kolomLinks {
   float:right;
-  width:200px;
+  width:calc(100%-200px, 40px)
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
@@ -56,6 +57,10 @@ p {
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
+}
+
+.floatclear {
+  clear:both;
 }
 
 /* Opmaak voor alle pagina's */
