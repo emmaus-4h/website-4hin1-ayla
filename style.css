@@ -10,7 +10,10 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color:rgb(255, 255, 255);    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  color: #303030; 
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: ;
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -24,7 +27,7 @@ body * {                          /* geldt voor alles in body */
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
-   background-image: url("afbeeldingen/cosmetica.jpeg");
+   background-image: url("afbeeldingen/roze.jpg");
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -47,13 +50,20 @@ p {
 /* Indeling voor hoofd pagina */
 
 .kolomLinks {
-  float:right;
-  width:calc(100%-200px, 40px)
+  float:left;
+
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
-  float:left;
-  width: 450px;
+  float:right;
+
+}
+.plaatje {
+      width: 250px;
+}
+.tekst {
+  width:calc(100% - 250px - 40px);
+
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
@@ -66,7 +76,7 @@ p {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: rgb(178, 131, 236) ;
+      color: rgb(244, 164, 192) ;
 }
 
 .smalltext {
@@ -75,7 +85,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #d4b9e9;
+    color: #f9d3e0;
     text-decoration: none;
 }
 
@@ -89,7 +99,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #d1b3c9;
+    background-color: #ffdad8;
     overflow: hidden;
 }
 
@@ -106,9 +116,15 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color:rgb(183, 155, 217));
+    background-color:rgb(255, 218, 216));
 }
 
 nav li a.active {
-    background-color:rgb(183, 155, 217);
+    background-color:rgb(249, 211, 224);
+}
+.box1 {
+  border:solid #ebebeb;
+  background-color: whitesmoke;
+  margin:10px;
+  padding:25px;
 }
